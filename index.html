@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+   <!-- fonts from google -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet"> 
+   <!-- link for icons from fontawesome -->
+   <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <title>validator formpage</title>
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <form action="#" class="form-container">
+
+        <h1>BEM VINDO</h1>
+        <section class="input-area">
+            <div class="input-form">
+              <i class="fas fa-user"></i>
+              <input type="email" name="email" id="email">
+            </div>
+            
+            <div class="input-form">
+              <i class="fas fa-lock"></i>
+              <input type="password" name="password" id="password">
+            </div>
+            
+            
+        </section>
+        
+       <div class="divider"></div>
+        <section class="validator area">
+          <ul>
+            <li class= "active"> 
+              <span>
+              <i class="fas fa-circle"></i>
+            </span>
+              lower & upper case
+            </li>
+            <li> 
+              <span>
+              <i class="fas fa-circle"></i>
+            </span>
+              Number (0 - 9)
+            </li>
+            <li>
+              <span>
+                <i class="fas fa-circle"></i>
+              </span>
+              Special Characters
+            </li>
+            <li>
+              <span>
+                <i class="fas fa-circle"></i>
+              </span>
+              at least 8 digits
+            </li>
+          </ul>
+        </section>
+        <input type="submit" value="Create Account" class= "btn" disabled>
+      </form>
+     
+    </div>
+  </div>
+   
+      
+      
+   
+   
+   
+    <script src="app.js"></script>
+</body>
+</html>
